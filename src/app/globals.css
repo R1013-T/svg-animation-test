@@ -25,3 +25,19 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.area {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dairiseki {
+  background-color: rgba(100, 100, 100, 0.2);
+  width: 300px;
+  filter: grayscale(100%);
+  opacity: 0.3;
+}
